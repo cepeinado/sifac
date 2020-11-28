@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+.my-nav-control {
+	background-color: #FFFFFF;
+	padding: 4px;
+}
+.my-nav-control select {
+	overflow:hidden;
+	border-radius: 5px;
+	border: thin solid #CCCCCC;
+}
+.mini-button
+{
+	height:16px; 
+	width:16px;
+}
+
+.header, table .header {
+	background-color: #5b9bd5;
+	font-family: Arial, Helvetica, sans-serif;
+	/*font-size: 11px;*/
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.header1, table .header1 {
+	background-color: #000080;
+	font-family: Arial, Helvetica, sans-serif;
+	/*font-size: 11px;*/
+	font-weight: bold;
+	color: #f0f0f0;
+}
+
+table tr .odd th,
+.odd, table .tr0 {
+	background-color: #f0f0f0;
+	/*font-size: 11px;*/
+}
+
+table tr .even th,
+.even, table .tr1 {
+	background-color: #ddebf7;
+	/*font-size: 11px;*/
+}
+
+#loginDiv {
+	font-size: 14px;
+	background-color: #F5F5F5;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: thin solid #999999;
+	-webkit-box-shadow:0 0 10px #aaa;
+	box-shadow:0 0 10px #aaa;
+}
+
+#loginDiv input {
+	width:130px;
+}
+
+.resaltar-div {
+	background-color: #FF0000;
+	padding: 2px;
+}
+
+.resaltar-text {
+	color: #FF6600;
+	font-weight: bold;
+}
+
+.puntero {
+	cursor: pointer;
+}
+
+.controlButton {
+	margin:0px;
+	padding:0px;
+	width:26px;
+	height:26px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.controlButton :hover {
+	background-color: #dadada;
+	border-radius: 4px;
+}
+
+.controlButton :active {
+	background-color: #5b9bd5;
+	border-radius: 4px;
+}
+
+.controlButton img {
+	padding: 5px;
+}
+
+.forma
+{
+	margin: 0;
+}
+
+.forma input, .forma select, .forma textarea, .forma .enmarcado
+{
+	font-size: 14px;
+	background-image: url(images/input_bg.png);
+	background-repeat: repeat-x;
+	background-position: 50% 50%;
+	background-color: #e6e6e6;
+	padding:2px;
+	border: 1px solid #aaa;
+}
+
+.forma_font
+{
+	font-size: 14px; font-family: arial, hevetica, sans-serif;
+}
+
+.forma_font2
+{
+	font-size:0.7em; font-family: arial, hevetica, sans-serif;
+}
+
+.dialogWithDropShadow
+{
+	box-shadow: 0px 0px 6px #2b579a;
+}
+
+.w300 {
+	width: 300px;
+}
+
+.w200 {
+	width: 200px;
+}
+
+.w150 {
+	width: 150px;
+}
+
+.w100 {
+	width: 100px;
+}
+
+.w70 {
+	width: 70px;
+}
+
+.w50 {
+	width: 50px;
+}
+
+.w30 {
+	width: 30px;
+}
